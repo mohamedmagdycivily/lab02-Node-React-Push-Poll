@@ -35,5 +35,6 @@ app.get("/messages", (req, res) => {
 });
 
 app.listen(3002, () => {
+  console.log("hi from short");
   console.log("server is listening on port 3002");
 });

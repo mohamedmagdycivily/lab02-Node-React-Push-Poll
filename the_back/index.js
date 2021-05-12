@@ -28,5 +28,6 @@ app.post("/messages", (req, res) => {
 
 app.listen(3000, (err) => {
   if (err) return console.log(err);
+  console.log("hi from index");
   return console.log("started server on port 3000");
 });
